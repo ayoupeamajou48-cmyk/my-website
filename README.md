@@ -1,7 +1,5 @@
-# my-website
-create a website that generates real instagram followers
-{
-  <!DOCTYPE html>
+
+<!DOCTYPE html>
 <html>
 <head>
 <title>GrowFollowers</title>
@@ -52,7 +50,7 @@ if(user==""){
 document.getElementById("result").innerHTML="Enter username";
 }
 else{
-document.getElementById("result").innerHTML=
+document.getElementById("result").innerHTML =
 "Welcome "+user+"! Start following users to earn followers.";
 }
 }
